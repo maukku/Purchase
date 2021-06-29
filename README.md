@@ -1,3 +1,1 @@
-# purchase
-The "Einkauf" function uses the variables KNR (customer number), ANr (item number) and Anzahl (quantity) respectively. If the item number is incorrect an error message is thrown warning that the item is unknown, if the item is correct a message is displayed with the number of items available, the quantity of items "purchased" is subtracted from the initial quantity of that product in the database, within the function also VAT (19%) is applied and 1% is deducted if the quantity exceeds 100 euros.  If the customer number is unknown (new customer), the parameter "letzter_Einkauf"(last purchase) will be updated with the date of the same day. 
 
